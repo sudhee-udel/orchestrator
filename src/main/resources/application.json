@@ -1,5 +1,5 @@
 {
-  "myendpoint": [
+  "/myendpoint": [
     {
       "process": "command"
     },
