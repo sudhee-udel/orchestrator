@@ -30,4 +30,10 @@ public class MyController {
         logger.info(httpServletRequest.getRequestURI());
         return this.values.get(httpServletRequest.getRequestURI());
     }
+
+    @RequestMapping("/myendpoint2")
+    public Object showValues2(HttpServletRequest httpServletRequest) {
+        logger.info(httpServletRequest.getRequestURI());
+        return this.values.get(httpServletRequest.getRequestURI());
+    }
 }
