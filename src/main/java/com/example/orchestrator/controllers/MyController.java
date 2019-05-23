@@ -12,7 +12,7 @@ import java.util.Map;
 @RestController
 public class MyController {
 
-    private Map<String, String> values;
+    private Map<String, Map<String, String>> values;
 
     @Autowired
     public MyController() throws IOException {
@@ -22,7 +22,7 @@ public class MyController {
     }
 
     @RequestMapping("/myendpoint")
-    public Map<String, String> showValues() {
+    public Map showValues() {
         return this.values;
     }
 }
