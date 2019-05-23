@@ -16,7 +16,7 @@ import java.util.Map;
 public class MyController {
     private final Logger logger = LoggerFactory.getLogger(this.getClass());
 
-    private Map<String, List<Map<String, String>>> values;
+    private Map<String, Map<String, List<Map<String, String>>>> values;
 
     @Autowired
     public MyController() throws IOException {

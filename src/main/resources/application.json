@@ -1,18 +1,35 @@
 {
   "/myendpoint": [
     {
-      "process": "command"
-    },
-    {
-      "process 2": "command 2"
+      "aggregator": [
+        {
+          "process": "command"
+        },
+        {
+          "process 2": "command 2"
+        }
+      ]
+      ,
+      "aggregator 3": [
+        {
+          "process 5": "command 5"
+        },
+        {
+          "process 6": "command 6"
+        }
+      ]
     }
   ],
   "/myendpoint2": [
     {
-      "process 3": "command 3"
-    },
-    {
-      "process 4": "command 4"
+      "aggregator 2": [
+        {
+          "process 3": "command 3"
+        },
+        {
+          "process 4": "command 4"
+        }
+      ]
     }
   ]
 }
