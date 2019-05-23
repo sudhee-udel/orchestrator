@@ -5,14 +5,14 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import java.io.File;
 import java.io.IOException;
+import java.util.List;
 import java.util.Map;
 
 @RestController
 public class MyController {
 
-    private Map<String, Map<String, String>> values;
+    private Map<String, List<Map<String, String>>> values;
 
     @Autowired
     public MyController() throws IOException {

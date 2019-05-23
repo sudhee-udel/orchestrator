@@ -1,5 +1,10 @@
 {
-  "myendpoint": {
-    "key": "value"
-  }
+  "myendpoint": [
+    {
+      "process": "command"
+    },
+    {
+      "process 2": "command 2"
+    }
+  ]
 }
